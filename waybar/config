@@ -1,0 +1,39 @@
+{
+	"layer": "top",
+	"modules-left": ["hyprland/workspaces", "mpd"],
+	"modules-center": ["hyprland/window"],
+	"modules-right": ["network", "pulseaudio", "temperature", "cpu", "memory", "clock"],
+	"mpd": {
+		"tooltip": false,
+		"format": "{stateIcon} {artist} - {album} - {title} ({elapsedTime:%M:%S}/{totalTime:%M:%S})",
+		"format-disconnected": "ﳌ",
+		"format-stopped": "",
+        "state-icons": {
+            "playing": "",
+            "paused": ""
+        }
+	},
+	"pulseaudio": {
+		"tooltip": false,
+		"scroll-step": 5,
+		"format": "{icon} {volume}%",
+		"format-icons": {
+			"default": ["奄", "奔", "墳"]
+		},
+		"on-click": "pavucontrol"
+	},
+	"network": {
+		"tooltip": false,
+		"format-wifi": " {essid} {ipaddr}",
+		"format-ethernet": " {ipaddr}"
+	},
+	"cpu": {
+		"tooltip": false,
+		"format": " {}%",
+		"on-click": "kitty --execute htop"	
+	},
+	"memory": {
+		"tooltip": false,
+		"format": " {}%"
+	}
+}
