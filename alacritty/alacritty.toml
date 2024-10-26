@@ -1,0 +1,17 @@
+[window]
+dynamic_padding = false
+opacity = 0.9
+
+
+[font]
+size = 16.0
+normal = { family = "BlexMono Nerd Font Mono", style = "Regular"}
+
+
+
+[general]
+live_config_reload = true
+
+import = [
+    "~/.config/alacritty/theme/zinc.toml"
+]

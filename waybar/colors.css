@@ -1,0 +1,15 @@
+@define-color background rgb(24, 24, 27);             /* zinc-900 */
+@define-color background-alt rgb(39, 39, 42);         /* zinc-800 */
+@define-color background-dim rgba(39, 39, 42, 0.95);  /* zinc-800 with transparency */
+@define-color border rgb(63, 63, 70);                 /* zinc-700 */
+@define-color text rgb(255, 255, 255);                /* white */
+@define-color text-dim rgb(212, 212, 216);            /* zinc-300 */
+@define-color text-dimmer rgb(161, 161, 170);         /* zinc-400 */
+@define-color accent rgb(139, 92, 246);               /* violet-500 */
+@define-color accent-hover rgb(124, 58, 237);         /* violet-600 */
+@define-color accent-dim rgb(82, 82, 91);             /* zinc-500 */
+
+/* Application-specific colors */
+@define-color firefox-bg #e6e6e6;                     /* lighter for visibility */
+@define-color firefox-text #4d4d4d;                   /* darker text for contrast */
+@define-color chromium-bg rgb(50, 95, 153); 

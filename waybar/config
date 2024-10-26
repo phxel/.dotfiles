@@ -1,39 +1,55 @@
 {
 	"layer": "top",
-	"modules-left": ["hyprland/workspaces", "mpd"],
-	"modules-center": ["hyprland/window"],
-	"modules-right": ["network", "pulseaudio", "temperature", "cpu", "memory", "clock"],
-	"mpd": {
-		"tooltip": false,
-		"format": "{stateIcon} {artist} - {album} - {title} ({elapsedTime:%M:%S}/{totalTime:%M:%S})",
-		"format-disconnected": "ﳌ",
-		"format-stopped": "",
-        "state-icons": {
-            "playing": "",
-            "paused": ""
-        }
+	"modules-left": ["hyprland/workspaces", "custom/mediaplayer", "custom/cava-internal"],
+	"modules-center": ["clock"],
+	"modules-right": ["network", "pulseaudio", "temperature", "cpu", "memory"],
+
+	"custom/music": {
+		"exec": "playerctl metadata --format '{{ artist }} - {{ title }}'",
+		"interval": 1,
+		"return-type": "json",
+		"format": "{output}",
+		"tooltip": false
 	},
+
+	"custom/mediaplayer": {
+        "exec": "~/.config/waybar/scripts/mediaplayer.sh",
+		"on-click": "playerctl play-pause",
+        "interval": 1,
+        "format": "{}",
+        "tooltip": false
+    },
+
 	"pulseaudio": {
 		"tooltip": false,
 		"scroll-step": 5,
 		"format": "{icon} {volume}%",
 		"format-icons": {
-			"default": ["奄", "奔", "墳"]
+			"default": ["󰕿", "󰖀", "󰕾"]
 		},
 		"on-click": "pavucontrol"
 	},
 	"network": {
 		"tooltip": false,
 		"format-wifi": " {essid} {ipaddr}",
-		"format-ethernet": " {ipaddr}"
+		"format-ethernet": "󰈀 {ifname}"
 	},
 	"cpu": {
+		"interval": 3,
 		"tooltip": false,
-		"format": " {}%",
-		"on-click": "kitty --execute htop"	
+		"format": " {avg_frequency}GHz",
+		"on-click": "alacritty -e btop"	
 	},
 	"memory": {
 		"tooltip": false,
 		"format": " {}%"
-	}
+	},
+	"custom/cava-internal": {
+    	"exec": "sh ~/.config/waybar/scripts/cava.sh",
+    	"format": "{}",
+    	"tooltip": false,
+    	"on-click": "swaymsg reload & pkill waybar & waybar",
+    	"layer": "below",
+    	"output": "all"
+  }
 }

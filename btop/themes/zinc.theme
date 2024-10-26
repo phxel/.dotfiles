@@ -1,0 +1,90 @@
+
+# Main background color
+theme[main_bg]="#18181b"          # zinc-900
+
+# Main text color
+theme[main_fg]="#ffffff"          # white
+
+# Title color for boxes
+theme[title]="#a78bfa"            # violet-400
+
+# Highlight color for keyboard shortcuts
+theme[hi_fg]="#eab308"            # yellow-500
+
+# Background color of selected item in processes box
+theme[selected_bg]="#8b5cf6"      # violet-500
+
+# Foreground color of selected item in processes box
+theme[selected_fg]="#ffffff"      # white
+
+# Color of inactive/disabled text
+theme[inactive_fg]="#6b7280"      # zinc-500
+
+# Color of text appearing on top of graphs (uptime, network graph scaling)
+theme[graph_text]="#d4d4d8"       # zinc-300
+
+# Background color of percentage meters
+theme[meter_bg]="#27272a"         # zinc-800
+
+# Misc colors for processes box (mini CPU graphs, details memory graph)
+theme[proc_misc]="#8b5cf6"        # violet-500
+
+# CPU box outline color
+theme[cpu_box]="#60a5fa"          # blue-400
+
+# Memory/disks box outline color
+theme[mem_box]="#22c55e"          # green-500
+
+# Net up/down box outline color
+theme[net_box]="#ef4444"          # red-500
+
+# Processes box outline color
+theme[proc_box]="#eab308"         # yellow-500
+
+# Box divider line and small boxes line color
+theme[div_line]="#27272a"         # zinc-800
+
+# Temperature graph colors
+theme[temp_start]="#a78bfa"       # violet-400
+theme[temp_mid]="#8b5cf6"         # violet-500
+theme[temp_end]="#7c3aed"         # violet-600
+
+# CPU graph colors
+theme[cpu_start]="#60a5fa"        # blue-400
+theme[cpu_mid]="#3b82f6"          # blue-500
+theme[cpu_end]="#2563eb"          # blue-600
+
+# Mem/Disk free meter
+theme[free_start]="#4ade80"       # green-400
+theme[free_mid]="#22c55e"         # green-500
+theme[free_end]="#16a34a"         # green-600
+
+# Mem/Disk cached meter
+theme[cached_start]="#4ade80"     # green-400
+theme[cached_mid]="#22c55e"       # green-500
+theme[cached_end]="#16a34a"       # green-600
+
+# Mem/Disk available meter
+theme[available_start]="#60a5fa"  # blue-400
+theme[available_mid]="#3b82f6"    # blue-500
+theme[available_end]="#2563eb"    # blue-600
+
+# Mem/Disk used meter
+theme[used_start]="#f87171"       # red-400
+theme[used_mid]="#ef4444"         # red-500
+theme[used_end]="#dc2626"         # red-600
+
+# Download graph colors
+theme[download_start]="#a78bfa"   # violet-400
+theme[download_mid]="#8b5cf6"     # violet-500
+theme[download_end]="#7c3aed"     # violet-600
+
+# Upload graph colors
+theme[upload_start]="#22d3ee"     # cyan-400
+theme[upload_mid]="#06b6d4"       # cyan-500
+theme[upload_end]="#0891b2"       # cyan-600
+
+# Process box color gradient for threads, memory, and CPU usage
+theme[process_start]="#facc15"    # yellow-400
+theme[process_mid]="#eab308"      # yellow-500
+theme[process_end]="#ca8a04"      # yellow-600

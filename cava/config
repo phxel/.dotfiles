@@ -8,7 +8,7 @@
 ; mode = normal
 
 # Accepts only non-negative values.
-framerate = 120
+; framerate = 60
 
 # 'autosens' will attempt to decrease sensitivity if the bars peak. 1 = on, 0 = off
 # new as of 0.6.0 autosens of low values (dynamic range)
@@ -23,8 +23,8 @@ framerate = 120
 # The number of bars (0-512). 0 sets it to auto (fill up console).
 # Bars' width and space between bars in number of characters.
 ; bars = 0
-; bar_width = 10
-bar_spacing = 1.3
+; bar_width = 2
+; bar_spacing = 1
 # bar_height is only used for output in "noritake" format
 ; bar_height = 32
 
@@ -79,8 +79,8 @@ bar_spacing = 1.3
 # For jack 'source' will be the name of the JACK server to connect to, e.g. 'foobar'. Default: 'default'.
 # README.md contains further information on how to setup CAVA for JACK.
 #
-method = pulse
-source = auto
+; method = pulse
+; source = auto
 
 ; method = pipewire
 ; source = auto
@@ -191,7 +191,7 @@ source = auto
 # enable alacritty synchronized updates. 1 = on, 0 = off
 # removes flickering in alacritty terminal emulator.
 # defaults to off since the behaviour in other terminal emulators is unknown
-alacritty_sync = 1
+; alacritty_sync = 0
 
 # Shaders for sdl_glsl, located in $HOME/.config/cava/shaders
 ; vertex_shader = pass_through.vert
@@ -203,6 +203,12 @@ alacritty_sync = 1
 # disable console blank (screen saver) in tty
 # (Not supported on FreeBSD)
 ; disable_blanking = 0
+
+# show a flat bar at the bottom of the screen when idle, 1 = on, 0 = off
+; show_idle_bar_heads = 1
+
+# show waveform instead of frequency spectrum, 1 = on, 0 = off
+; waveform = 0
 
 [color]
 
@@ -221,10 +227,16 @@ alacritty_sync = 1
 # Gradient mode, only hex defined colors are supported,
 # background must also be defined in hex or remain commented out. 1 = on, 0 = off.
 # You can define as many as 8 different colors. They range from bottom to top of screen
-gradient = 1
-gradient_count = 2
-gradient_color_1 = '#c4e1f2'
-gradient_color_2 = '#4a7a8c'
+; gradient = 0
+; gradient_count = 8
+; gradient_color_1 = '#59cc33'
+; gradient_color_2 = '#80cc33'
+; gradient_color_3 = '#a6cc33'
+; gradient_color_4 = '#cccc33'
+; gradient_color_5 = '#cca633'
+; gradient_color_6 = '#cc8033'
+; gradient_color_7 = '#cc5933'
+; gradient_color_8 = '#cc3333'
 
 
 
@@ -236,7 +248,7 @@ gradient_color_2 = '#4a7a8c'
 ; integral = 77
 
 # Disables or enables the so-called "Monstercat smoothing" with or without "waves". Set to 0 to disable.
-monstercat = 1
+; monstercat = 0
 ; waves = 0
 
 # Set gravity percentage for "drop off". Higher values means bars will drop faster.

@@ -1,0 +1,40 @@
+[colors.primary]
+background = '#18181b' # zinc-900
+foreground = '#ffffff' # white
+
+[colors.cursor]
+text = '#8b5cf6'   # violet-500
+cursor = '#ffffff' # white
+
+# Normal colors
+[colors.normal]
+black   = '#18181b' # zinc-900
+red     = '#ef4444' # red-500
+green   = '#22c55e' # green-500
+yellow  = '#eab308' # yellow-500
+blue    = '#3b82f6' # blue-500
+magenta = '#8b5cf6' # violet-500
+cyan    = '#06b6d4' # cyan-500
+white   = '#d4d4d8' # zinc-300
+
+# Bright colors
+[colors.bright]
+black   = '#27272a' # zinc-800
+red     = '#f87171' # red-400
+green   = '#4ade80' # green-400
+yellow  = '#facc15' # yellow-400
+blue    = '#60a5fa' # blue-400
+magenta = '#a78bfa' # violet-400
+cyan    = '#22d3ee' # cyan-400
+white   = '#ffffff' # white
+
+# Dim colors
+[colors.dim]
+black   = '#09090b' # zinc-950
+red     = '#dc2626' # red-600
+green   = '#16a34a' # green-600
+yellow  = '#ca8a04' # yellow-600
+blue    = '#2563eb' # blue-600
+magenta = '#7c3aed' # violet-600
+cyan    = '#0891b2' # cyan-600
+white   = '#a1a1aa' # zinc-400

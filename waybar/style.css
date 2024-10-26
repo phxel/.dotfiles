@@ -1,139 +1,97 @@
+@import 'colors.css';
+
 * {
-	border: none;
-	border-radius: 0;
-	font-family: JetBrainsMono Nerd Font;
-	font-size: 18px;
-	min-height: 24px;
+    border: none;
+    font-family: "JetBrainsMonoNL Nerd Font";
+    font-size: 20px;
+    border-radius: 5px;
+    min-height: 24px;
 }
 
 window#waybar {
-	background: transparent;
+    background: transparent;
 }
 
 window#waybar.hidden {
-	opacity: 0.2;
+    opacity: 0.2;
 }
 
 #window {
-  margin-top: 8px;
-  padding-left: 16px;
-  padding-right: 16px;
-	border-radius: 26px;
-	transition: none; 
-  color: white;
-  background: rgb(15,15,15);
+    margin-top: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    transition: none;
+    color: @text;
+    background: @background;
 }
 
+/* Application-specific styles */
 window#waybar.termite #window,
 window#waybar.Firefox #window,
 window#waybar.Navigator #window,
 window#waybar.PCSX2 #window {
-    color: #4d4d4d;
-	background: #e6e6e6;
+    color: @firefox-text;
+    background: @firefox-bg;
 }
 
 window#waybar.chromium {
-	color: white;
-	background-color: rgb(50,95,153);
+    color: @text;
+    background-color: @chromium-bg;
 }
 
 #workspaces {
-	margin-top: 8px;
-	margin-left: 12px;
-	margin-bottom: 0;
-	border-radius: 26px;
-	background: rgb(15, 15, 15);
-	transition: none;
+    margin-top: 8px;
+    margin-left: 12px;
+    margin-bottom: 0;
+    background: @background;
+    transition: none;
 }
 
-
 #workspaces button {
-	transition: none;
-	color: #f8f8f2;
-	background: transparent;
-	font-size: 16px;
+    transition: none;
+    color: @text-dim;
+    background: transparent;
+    font-size: 16px;
 }
 
 #workspaces button.focused {
-	color: #9aedfe;
+    color: @accent;
 }
 
 #workspaces button:hover {
-	transition: none;
-	box-shadow: inherit;
-	text-shadow: inherit;
-	color: #ff79c6;
+    transition: none;
+    box-shadow: inherit;
+    text-shadow: inherit;
+    color: @accent-hover;
 }
 
-#network {
-	margin-top: 8px;
-	margin-left: 8px;
-	padding-left: 16px;
-	padding-right: 16px;
-	margin-bottom: 0;
-	border-radius: 26px;
-	transition: none;
-	color: rgb(255,255,255);
-	background: rgb(15,15,15);
+/* Common module styling */
+#network,
+#pulseaudio,
+#temperature,
+#cpu,
+#memory,
+#clock,
+#custom-cava-internal,
+#custom-mediaplayer {
+    margin-top: 8px;
+    margin-left: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-bottom: 0;
+    transition: none;
+    color: @text;
+    background: @background;
 }
 
-#pulseaudio {
-	margin-top: 8px;
-	margin-left: 8px;
-	padding-left: 16px;
-	padding-right: 16px;
-	margin-bottom: 0;
-	border-radius: 26px;
-	transition: none;
-	color: rgb(255,255,255);
-	background: rgb(15,15,15);
+/* Specific margin adjustments */
+#memory,
+#clock,
+#custom-cava-internal {
+    margin-right: 12px;
 }
 
-#temperature {
-	margin-top: 8px;
-	margin-left: 8px;
-	padding-left: 16px;
-	padding-right: 16px;
-	margin-bottom: 0;
-	border-radius: 26px;
-	transition: none;
-	color: rgb(255,255,255);
-	background: rgb(15,15,15);
-}
-
-#cpu {
-	margin-top: 8px;
-	margin-left: 8px;
-	padding-left: 16px;
-	padding-right: 16px;
-	margin-bottom: 0;
-	border-radius: 26px;
-	transition: none;
-	color:rgb(255,255,255);
-	background: rgb(15,15,15);
-}
-
-#memory {
-	margin-top: 8px;
-	margin-left: 8px;
-	padding-left: 16px;
-	padding-right: 16px;
-	margin-bottom: 0;
-	border-radius: 26px;
-	transition: none;
-	color:rgb(255,255,255);
-	background:rgb(15,15,15);
-}
-
-#clock {
-	margin-top: 8px;
-	margin-left: 8px;
-	margin-right: 12px;
-	padding-left: 16px;
-	padding-right: 16px;
-	margin-bottom: 0;
-	border-radius: 26px;
-	transition: none;
-	color:rgb(255,255,255);
-	background:rgb(15,15,15);
+/* Custom module specific styles */
+#custom-cava-internal {
+    font-family: "bargraph";
 }

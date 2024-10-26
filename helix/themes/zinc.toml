@@ -1,0 +1,54 @@
+# Theme name: Zinc Violet Balanced
+
+# UI settings
+"ui.menu" = { fg = "#d4d4d8", bg = "#27272a" }
+"ui.menu.selected" = { fg = "#ffffff", bg = "#8b5cf6" }
+"ui.linenr" = { fg = "#71717a", bg = "#18181b" }
+"ui.popup" = { fg = "#d4d4d8", bg = "#27272a" }
+"ui.linenr.selected" = { fg = "#d4d4d8", bg = "#18181b", modifiers = ["bold"] }
+"ui.selection" = { fg = "#ffffff", bg = "#3b82f6" }
+"ui.text.inactive" = { fg = "#71717a" }
+"ui.statusline" = { fg = "#d4d4d8", bg = "#27272a" }
+"ui.statusline.inactive" = { fg = "#71717a", bg = "#27272a" }
+"ui.statusline.normal" = { fg = "#ffffff", bg = "#8b5cf6" }
+"ui.statusline.insert" = { fg = "#ffffff", bg = "#22c55e" }
+"ui.statusline.select" = { fg = "#ffffff", bg = "#3b82f6" }
+"ui.cursor" = { fg = "#8b5cf6", bg = "#27272a" }
+"ui.cursor.primary" = { fg = "#8b5cf6", bg = "#27272a", modifiers = ["reversed"] }
+"ui.cursor.match" = { fg = "#eab308", modifiers = ["underlined"] }
+"ui.virtual.ruler" = { bg = "#27272a" }
+"ui.virtual" = { fg = "#71717a" }
+"ui.virtual.indent-guide" = { fg = "#27272a" }
+"ui.virtual.jump-label" = { fg = "#3b82f6", modifiers = ["bold"] }
+"ui.help" = { fg = "#d4d4d8", bg = "#18181b" }
+"ui.gutter" = { bg = "#18181b" }
+
+# Syntax highlighting
+"comment" = { fg = "#71717a", modifiers = ["italic"] }
+"constant" = { fg = "#eab308" }
+"constant.numeric" = { fg = "#eab308" }
+"constant.character.escape" = { fg = "#06b6d4" }
+"string" = { fg = "#22c55e" }
+"variable" = { fg = "#d4d4d8" } # Reduced saturation for general variables
+"type" = { fg = "#8b5cf6" }
+"function" = { fg = "#3b82f6" }
+"keyword" = { fg = "#8b5cf6" }
+"operator" = { fg = "#d4d4d8" } # Removed color from operators and punctuation
+"special" = { fg = "#3b82f6" }
+"namespace" = { fg = "#8b5cf6" }
+
+# Markup
+"markup.heading" = { fg = "#3b82f6", modifiers = ["bold"] }
+"markup.list" = { fg = "#ef4444" }
+"markup.link.url" = { fg = "#eab308", modifiers = ["underlined"] }
+"markup.quote" = { fg = "#06b6d4" }
+
+# Diffs
+"diff.plus" = { fg = "#22c55e" }
+"diff.minus" = { fg = "#ef4444" }
+
+# Diagnostics
+"error" = { fg = "#ef4444" }
+"warning" = { fg = "#eab308" }
+"info" = { fg = "#3b82f6" }
+"hint" = { fg = "#71717a" }

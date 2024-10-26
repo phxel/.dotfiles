@@ -1,0 +1,106 @@
+
+2024/10/25 (23:39:13) | ===> btop++ v.1.4.0
+2024/10/25 (23:39:13) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2024/10/25 (23:39:13) | WARNING: ROCm SMI: Failed to get PCIe throughput
+
+2024/10/25 (23:39:20) | ===> btop++ v.1.4.0
+2024/10/25 (23:39:20) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2024/10/25 (23:39:20) | WARNING: ROCm SMI: Failed to get PCIe throughput
+
+2024/10/25 (23:45:37) | ===> btop++ v.1.4.0
+2024/10/25 (23:45:37) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2024/10/25 (23:45:37) | WARNING: ROCm SMI: Failed to get PCIe throughput
+
+2024/10/26 (01:29:13) | ===> btop++ v.1.4.0
+2024/10/26 (01:29:13) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2024/10/26 (01:29:13) | WARNING: ROCm SMI: Failed to get PCIe throughput
+
+2024/10/26 (01:29:29) | ===> btop++ v.1.4.0
+2024/10/26 (01:29:29) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2024/10/26 (01:29:29) | WARNING: ROCm SMI: Failed to get PCIe throughput
+
+2024/10/26 (01:50:16) | ===> btop++ v.1.4.0
+2024/10/26 (01:50:16) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2024/10/26 (01:50:16) | WARNING: ROCm SMI: Failed to get PCIe throughput
+
+2024/10/26 (01:50:17) | ===> btop++ v.1.4.0
+2024/10/26 (01:50:17) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2024/10/26 (01:50:17) | WARNING: ROCm SMI: Failed to get PCIe throughput
+
+2024/10/26 (02:09:35) | ===> btop++ v.1.4.0
+2024/10/26 (02:09:35) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2024/10/26 (02:09:35) | WARNING: ROCm SMI: Failed to get PCIe throughput
+
+2024/10/26 (02:33:13) | ===> btop++ v.1.4.0
+2024/10/26 (02:33:13) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2024/10/26 (02:33:13) | WARNING: ROCm SMI: Failed to get PCIe throughput
+
+2024/10/26 (02:33:33) | ===> btop++ v.1.4.0
+2024/10/26 (02:33:33) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2024/10/26 (02:33:33) | WARNING: ROCm SMI: Failed to get PCIe throughput
+
+2024/10/26 (02:34:37) | ===> btop++ v.1.4.0
+2024/10/26 (02:34:37) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2024/10/26 (02:34:37) | WARNING: ROCm SMI: Failed to get PCIe throughput
+
+2024/10/26 (18:07:46) | ===> btop++ v.1.4.0
+2024/10/26 (18:07:46) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2024/10/26 (18:07:46) | WARNING: ROCm SMI: Failed to get PCIe throughput
+
+2024/10/26 (19:54:35) | ===> btop++ v.1.4.0
+2024/10/26 (19:54:35) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2024/10/26 (19:54:35) | WARNING: ROCm SMI: Failed to get PCIe throughput
+
+2024/10/26 (20:00:43) | ===> btop++ v.1.4.0
+2024/10/26 (20:00:43) | INFO: Logger set to DEBUG
+2024/10/26 (20:00:43) | DEBUG: Using locale en_US.UTF-8
+2024/10/26 (20:00:43) | INFO: Running on /dev/pts/1
+2024/10/26 (20:00:43) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2024/10/26 (20:00:43) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2024/10/26 (20:00:43) | WARNING: ROCm SMI: Failed to get PCIe throughput
+2024/10/26 (20:00:43) | DEBUG: Failed to find Intel GPU sysfs path, Intel GPUs will not be detected
+2024/10/26 (20:00:43) | DEBUG: Shared::init() : Initialized.
+
+2024/10/26 (20:01:06) | ===> btop++ v.1.4.0
+2024/10/26 (20:01:06) | INFO: Logger set to DEBUG
+2024/10/26 (20:01:06) | DEBUG: Using locale en_US.UTF-8
+2024/10/26 (20:01:06) | INFO: Running on /dev/pts/1
+2024/10/26 (20:01:06) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2024/10/26 (20:01:06) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2024/10/26 (20:01:06) | WARNING: ROCm SMI: Failed to get PCIe throughput
+2024/10/26 (20:01:06) | DEBUG: Failed to find Intel GPU sysfs path, Intel GPUs will not be detected
+2024/10/26 (20:01:06) | DEBUG: Shared::init() : Initialized.
+2024/10/26 (20:01:06) | DEBUG: Loading theme file: /home/phillip/.config/btop/themes/zinc.theme
+
+2024/10/26 (20:57:36) | ===> btop++ v.1.4.0
+2024/10/26 (20:57:36) | INFO: Logger set to DEBUG
+2024/10/26 (20:57:36) | DEBUG: Using locale en_US.UTF-8
+2024/10/26 (20:57:36) | INFO: Running on /dev/pts/1
+2024/10/26 (20:57:36) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2024/10/26 (20:57:36) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2024/10/26 (20:57:36) | WARNING: ROCm SMI: Failed to get PCIe throughput
+2024/10/26 (20:57:36) | DEBUG: Failed to find Intel GPU sysfs path, Intel GPUs will not be detected
+2024/10/26 (20:57:36) | DEBUG: Shared::init() : Initialized.
+2024/10/26 (20:57:36) | DEBUG: Loading theme file: /home/phillip/.config/btop/themes/zinc.theme
+
+2024/10/27 (00:27:59) | ===> btop++ v.1.4.0
+2024/10/27 (00:27:59) | INFO: Logger set to DEBUG
+2024/10/27 (00:27:59) | DEBUG: Using locale en_US.UTF-8
+2024/10/27 (00:27:59) | INFO: Running on /dev/pts/0
+2024/10/27 (00:27:59) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2024/10/27 (00:27:59) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2024/10/27 (00:27:59) | WARNING: ROCm SMI: Failed to get PCIe throughput
+2024/10/27 (00:27:59) | DEBUG: Failed to find Intel GPU sysfs path, Intel GPUs will not be detected
+2024/10/27 (00:27:59) | DEBUG: Shared::init() : Initialized.
+2024/10/27 (00:27:59) | DEBUG: Loading theme file: /home/phillip/.config/btop/themes/zinc.theme
+
+2024/10/27 (01:02:49) | ===> btop++ v.1.4.0
+2024/10/27 (01:02:49) | INFO: Logger set to DEBUG
+2024/10/27 (01:02:49) | DEBUG: Using locale en_US.UTF-8
+2024/10/27 (01:02:49) | INFO: Running on /dev/pts/3
+2024/10/27 (01:02:49) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2024/10/27 (01:02:49) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2024/10/27 (01:02:49) | WARNING: ROCm SMI: Failed to get PCIe throughput
+2024/10/27 (01:02:49) | DEBUG: Failed to find Intel GPU sysfs path, Intel GPUs will not be detected
+2024/10/27 (01:02:49) | DEBUG: Shared::init() : Initialized.
+2024/10/27 (01:02:49) | DEBUG: Loading theme file: /home/phillip/.config/btop/themes/zinc.theme
