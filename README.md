@@ -7,7 +7,7 @@ The following packages are required and can be installed through the AUR:
 `yay -S hy3 libcava cava`
 
 # Yazi
-My Yazi config require additional plugins that aren't included in these dotfiles. Install them using:
+My Yazi config requires additional plugins that aren't included in these dotfiles. Install them using:
 
 `ya pack -a yazi-rs/plugins:hide-preview`
 
