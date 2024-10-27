@@ -9,3 +9,12 @@ These dots require the following packages to work correctly:
 These can be installed through the AUR.
 
 `yay -S hy3 libcava cava`
+
+# Yazi
+Run the following commands to install the necessary plugins that I use:
+
+`ya pack -a yazi-rs/plugins:hide-preview`
+
+`ya pack -a yazi-rs/plugins:full-border`
+
+These plugins are not packaged with my dotfiles.
