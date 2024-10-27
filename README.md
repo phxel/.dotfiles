@@ -3,7 +3,9 @@ My daily driver configs. Everything in here is subject to change as I like to me
 
 # Requirements
 These dots require the following packages to work correctly:
-'hy3, cava, libcava'
+
+`hy3, cava, libcava`
 
 These can be installed through the AUR.
-'yay -S hy3 libcava cava'
+
+`yay -S hy3 libcava cava`
